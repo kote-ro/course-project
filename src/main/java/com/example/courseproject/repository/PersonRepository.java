@@ -6,9 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface PersonRepository extends JpaRepository<Person, Long> {
-    // отчёт про добытую энергию за период
-    // findProducedEnergyBetweenDates(Date start, Date end)
-    // total produced energy (по будинку, по сенсору)
-    // rollup sql
 
 }
